@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      header,
+      footer {
+        background-color: #8267be;
+        color: #ffbd35;
+        padding: 20px;
+      }
+      .col-2 {
+        width: 50%;
+        float: left;
+        padding: 10px;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      ul li {
+        list-style: none;
+        background-color: #502064;
+        padding: 20px;
+        margin-bottom: 10px;
+        color: white;
+      }
+      .col30 {
+        width: 30%;
+      }
+      .col70 {
+        width: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+    </header>
+    <main class="clearfix">
+      <div class="col-2 col30">
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+      <div class="col-2 col70">
+        <h1>Komple Web Geliştirme Eğitimi</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat
+          odit consequuntur doloremque doloribus nihil atque, fugit non saepe
+          tenetur, repellat quaerat fuga nostrum soluta animi aut omnis vitae
+          ratione.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, ipsa
+          culpa! Distinctio quibusdam quo debitis omnis nulla placeat. Labore
+          perferendis debitis id explicabo consequatur! Quos laudantium eos
+          sequi. Nihil, deserunt!
+        </p>
+      </div>
+    </main>
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+  </body>
+</html>

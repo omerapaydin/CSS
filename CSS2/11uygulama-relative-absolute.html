@@ -33,6 +33,16 @@
         height: 500px;
         width: 100%;
         padding: 10px;
+        position: relative;
+      }
+      #showcase h1 {
+        font-size: 45px;
+        color: #fff;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
 
       .main-header {
@@ -93,11 +103,6 @@
         text-align: center;
       }
 
-      #how-it-works h2 {
-        color: #3e4555;
-        font-size: 30px;
-      }
-
       .row {
         margin-bottom: 40px;
       }
@@ -143,6 +148,9 @@
 
       .section-title {
         text-align: center;
+        margin-bottom: 40px;
+        color: #3e4555;
+        font-size: 30px;
       }
 
       .plan {
@@ -182,6 +190,10 @@
       .recommended_plan {
         color: #fff;
         background-color: #396eb0 !important;
+      }
+      .plan--featured {
+        position: relative;
+        top: -20px;
       }
       .plan_features {
         list-style: none;
@@ -287,7 +299,7 @@
                 </div>
               </div>
             </div>
-            <div class="plan">
+            <div class="plan plan--featured">
               <div class="inner-plan recommended_plan">
                 <h2 class="plan_badge">Recommended</h2>
                 <h2>Basic</h2>

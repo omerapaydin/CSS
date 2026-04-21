@@ -123,19 +123,24 @@ main {
 .row {
   margin-bottom: 40px;
 }
-
-.col-3 {
-  display: inline-block;
-  width: 30%;
-  padding: 16px;
-  margin: 8px;
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
+.col-4 {
+  float: left;
+  width: 25%;
+}
+
+.col-3 {
+  float: left;
+  width: 33.3%;
+}
 .col-2 {
-  display: inline-block;
-  width: calc(50% - 2px);
-  height: 350px;
-  background-color: brown;
+  float: left;
+  width: 50%;
 }
 
 .icon-box h3 {
@@ -165,6 +170,11 @@ main {
   vertical-align: top;
 }
 
+.features__left,
+.features__right {
+  height: 350px;
+}
+
 .features__right h3 {
   font-size: 30px;
 }
@@ -179,8 +189,6 @@ main {
 .plan {
   text-align: center;
   padding: 5px;
-  width: 33.3%;
-  float: left;
 }
 
 .plan__badge {

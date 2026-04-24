@@ -299,3 +299,48 @@ main {
 .img-fluid {
   width: 100%;
 }
+/* --- */
+
+footer {
+  background-color: #2e4c6d;
+  padding: 30px;
+  margin-top: 30px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+.social-links {
+  text-align: right;
+}
+.fab {
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.fab:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+.fa-twitter {
+  background-color: #55acee;
+  color: #fff;
+}
+.fa-instagram {
+  background-color: #125688;
+  color: #fff;
+}
